@@ -1,0 +1,575 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="icon" href="#">
+      <title>My Profile</title>
+      <!-- Bootstrap core CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/font-awesome.min.css" rel="stylesheet">
+      <link href="css/animsition.min.css" rel="stylesheet">
+      <link href="css/animate.css" rel="stylesheet">
+      <!-- Custom styles for this template -->
+      <link href="css/style.css" rel="stylesheet">
+   </head>
+   <body>
+      <div class="site-wrapper animsition" data-animsition-in="fade-in" data-animsition-out="fade-out">
+         <!--header starts-->
+         <header id="header" class="header-scroll top-header headrom">
+            <!-- .navbar -->
+            <nav class="navbar navbar-dark">
+               <div class="container">
+                  <button class="navbar-toggler hidden-lg-up" type="button" data-toggle="collapse" data-target="#mainNavbarCollapse">&#9776;</button>
+                  <a class="navbar-brand" href="index.html"> <img class="img-rounded logo-img" src="images/food-picky-logo.png" alt=""> </a>
+                  <div class="collapse navbar-toggleable-md  float-lg-right" id="mainNavbarCollapse">
+                     <ul class="nav navbar-nav">
+                        <li class="nav-item"> <a class="nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a> </li>
+                        <!-- <li class="nav-item"> <a class="nav-link active" href="index.html">About Us <span class="sr-only">(current)</span></a> </li>
+                           <li class="nav-item"> <a class="nav-link active" href="index.html">Contact Us <span class="sr-only">(current)</span></a> </li> -->
+                        <li class="nav-item"> <a class="nav-link active" href=""  data-toggle="modal" data-target="#resrvationModal">Reservation <span class="sr-only">(current)</span></a> </li>
+                        <li class="nav-item"> <a class="nav-link active" href="index.html">Support <span class="sr-only">(current)</span></a> </li>
+                        <li class="nav-item dropdown">
+                           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">My Account</a>
+                           <div class="dropdown-menu">
+                              <a class="dropdown-item" href="profile.html">My Profile</a>
+                              <a class="dropdown-item" href="profile.html">Logout</a>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+            <!-- /.navbar -->
+         </header>
+         <div class="page-wrapper">
+            
+            <section class=" bg-image" data-image-src="images/profile-banner.jpg">
+               <div class="profile">
+                  <div class="container">
+                     <div class="row">
+                        <div class="col-xs-12 col-sm-12  col-md-2 col-lg-2 profile-img">
+                           <div class="image-wrap">
+                              <figure><img src="https://patcegan.files.wordpress.com/2015/03/beauty-of-a-girl-looks-so-innocent.jpg?w=600" alt="Profile Image"></figure>
+                           </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-10 col-lg-10 profile-desc">
+                           <div class="pull-left right-text white-txt">
+                              <h1 style="color: #fff;"> Anamika Sharma </h1>
+                              <a class="btn btn-small btn-green"  data-toggle="modal" data-target="#changePinfo">Edit </a>
+                              <h4 style="color: #fff;padding-top: 10px;">+919098962700</h4>
+                              <p>anamika.sharma@gmail.com</p>
+                           </div>
+                        </div>
+                        <div class="modal fade" id="changePinfo">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Personal Detail</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+         <div class="profile-pic-change">
+            <img src="https://patcegan.files.wordpress.com/2015/03/beauty-of-a-girl-looks-so-innocent.jpg?w=600">
+            <div class="edit_pro_ico">
+               <input type="file" aria-describedby="fileHelp" id="exampleInputFile" class="form-control-file">
+             <i class="fa fa-pencil" aria-hidden="true"></i> 
+            </div>
+         </div>
+
+         <div class="aedit-form-box">
+            <div class="form-group">
+                  <label for="exampleInputEmail1">Fulle Name</label>
+                     <input type="text"  value="Anamika Sharma" class="form-control">  
+            </div>
+
+            <div class="form-group">
+                  <label for="exampleInputEmail1">Mobile Number</label>
+                  <input type="text" value="+919098962700" class="form-control">  
+            </div>
+ 
+         </div>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+
+        <button type="button" class="btn btn-outline-danger update-info-personal" data-dismiss="modal">Update</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- end:Inner page hero -->
+            <!--  <div class="breadcrumb">
+               <div class="container">
+                  <ul>
+                     <li><a href="#" class="active">Home</a></li>
+                     <li><a href="#">Search results</a></li>
+                     <li>Profile</li>
+                  </ul>
+               </div>
+               </div> -->
+            <div class="container m-t-30">
+               <div class="row">
+                  <div class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
+                     <div class="sidebar clearfix m-b-20">
+                        <div class="main-block">
+                           <!--  <div class="sidebar-title white-txt">
+                              <h6>Choose Cusine</h6>
+                              <i class="fa fa-cutlery pull-right"></i> 
+                              </div> -->
+                           <ul>
+                              <li><a href="#Loyaltypoints" class="scroll active">Loyalty Points</a></li>
+                              <li><a href="#Orderhisotry" class="scroll active">Order History</a></li>
+                              <li><a href="#resarvationhistory" class="scroll active">Resarvation History</a></li>
+                              <li><a href="#Changepassword" class="scroll active">Change Password</a></li>
+                            
+                           </ul>
+                           <div class="clearfix"></div>
+                        </div>
+                        <!-- end:Sidebar nav -->
+                     </div>
+                  </div>
+                  <div class="col-xs-12 col-sm-8 col-md-8 col-lg-9">
+                     <!-- end:Widget menu -->
+                     <div class="menu-widget" id="Loyaltypoints">
+                        <div class="widget-heading">
+                           <h3 class="widget-title text-dark">
+                              Loyalty Points <a class="btn btn-link pull-right" data-toggle="collapse" href="#popular2" aria-expanded="true">
+                              <i class="fa fa-angle-right pull-right"></i>
+                              <i class="fa fa-angle-down pull-right"></i>
+                              </a>
+                           </h3>
+                           <div class="clearfix"></div>
+                        </div>
+                        <div class="collapse in" id="popular2">
+                           <div class="loyaltypoint-show-box">
+                              <p>Your Total Points</p>
+                              <h1>15000</h1>
+                           </div>
+                           <h4 class="point-history-head">Point History</h4>
+                           <div class="food-item white loyaltypoint-Item">
+                              <div class="row">
+                                 <div class="col-xs-12 col-sm-12 col-lg-8">
+                                    <!-- end:Logo -->
+                                    <div class="rest-descr">
+                                       <h5>HM7088546 <span class="earned-green"  >2 Point Earned</span></h5>
+                                       <p> <img width="20px;" src="images/vagitable.png"> Burgers, American, Sandwiches, Fast Food, BBQ</p>
+                                    </div>
+                                    <!-- end:Description -->
+                                 </div>
+                                 <!-- end:col -->
+                                 <div class="col-xs-12 col-sm-12 col-lg-4   item-cart-info text-center"> <span class="price ">&#8377; 400</span>  </div>
+                              </div>
+                              <!-- end:row -->
+                           </div>
+                           <div class="food-item loyaltypoint-Item">
+                              <div class="row">
+                                 <div class="col-xs-12 col-sm-12 col-lg-8">
+                                    <!-- end:Logo -->
+                                    <div class="rest-descr">
+                                       <h5>HM7088546 <span class="earned-red"  >4 Point Spent</span></h5>
+                                       <p> <img width="20px;" src="images/vagitable.png"> Burgers, American, Sandwiches, Fast Food, BBQ</p>
+                                    </div>
+                                    <!-- end:Description -->
+                                 </div>
+                                 <!-- end:col -->
+                                 <div class="col-xs-12 col-sm-12 col-lg-4   item-cart-info text-center"> <span class="price ">&#8377; 800</span>  </div>
+                              </div>
+                              <!-- end:row -->
+                           </div>
+                           <!-- end:Food item -->
+                           <div class="food-item white loyaltypoint-Item">
+                              <div class="row">
+                                 <div class="col-xs-12 col-sm-12 col-lg-8">
+                                    <!-- end:Logo -->
+                                    <div class="rest-descr">
+                                       <h5>HM7088578 <span style="color: #82B21C;">3 Point Earned</span></h5>
+                                       <p> <img width="20px;" src="images/nonvag.png"> Burgers, American, Sandwiches, Fast Food, BBQ</p>
+                                    </div>
+                                    <!-- end:Description -->
+                                 </div>
+                                 <!-- end:col -->
+                                 <div class="col-xs-12 col-sm-12 col-lg-4   item-cart-info text-center"> <span class="price ">&#8377; 600</span>  </div>
+                              </div>
+                              <!-- end:row -->
+                           </div>
+                        </div>
+                     </div>
+                     <div class="menu-widget" id="Changepassword">
+                        <div class="widget-heading">
+                           <h3 class="widget-title text-dark">
+                              Change Password <a class="btn btn-link pull-right" data-toggle="collapse" href="#popular3" aria-expanded="true">
+                              <i class="fa fa-angle-right pull-right"></i>
+                              <i class="fa fa-angle-down pull-right"></i>
+                              </a>
+                           </h3>
+                           <div class="clearfix"></div>
+                        </div>
+                        <div class="collapse in " id="popular3">
+                           <div class="changepass-box">
+                              <form>
+                                 <div class="form-group">
+                                    <label for="exampleInputEmail1">Old Password</label>
+                                    <input style="max-width: 450px;" type="text" id="example-text-input" value="" class="form-control"> 
+                                 </div>
+                                 <div class="form-group">
+                                    <label for="exampleInputEmail1">New Password</label>
+                                    <input style="max-width: 450px;" type="text" id="example-text-input" value=" " class="form-control"> 
+                                 </div>
+                                 <div class="form-group">
+                                    <label for="exampleInputEmail1">Confirm Password</label>
+                                    <input style="max-width: 450px;" type="text" id="example-text-input" value=" " class="form-control"> 
+                                 </div>
+                                 <p>
+                                    <button class="btn theme-btn" type="submit">Update</button>
+                                 </p>
+                              </form>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="menu-widget" id="Orderhisotry">
+                        <div class="widget-heading">
+                           <h3 class="widget-title text-dark">
+                              Order History <a class="btn btn-link pull-right" data-toggle="collapse" href="#popular4" aria-expanded="true">
+                              <i class="fa fa-angle-right pull-right"></i>
+                              <i class="fa fa-angle-down pull-right"></i>
+                              </a>
+                           </h3>
+                           <div class="clearfix"></div>
+                        </div>
+                        <div class="collapse in" id="popular4">
+                           <div class="Order-history-box">
+                              <!-- Nav tabs -->
+                              <ul class="nav nav-tabs" role="tablist">
+                                 <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#ordercurrent" role="tab">Order Current</a>
+                                 </li>
+                                 <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#orderPast" role="tab">Past Order</a>
+                                 </li>
+                              </ul>
+                              <!-- Tab panes -->
+                              <div class="tab-content">
+                                 <div class="tab-pane active" id="ordercurrent" role="tabpanel">
+                                    <div class="food-item loyaltypoint-Item">
+                                       <div class="row">
+                                          <div class="col-xs-12 col-sm-12 col-lg-8">
+                                             <!-- end:Logo -->
+                                             <div class="rest-descr">
+                                                <h5>HM7088546 <span class="earned-yellow"  >Processing</span></h5>
+                                                <p style=" margin-bottom: 0"> <img width="20px;" src="images/vagitable.png"> Burgers, American, Sandwiches, Fast Food, BBQ</p>
+                                                <p style="color: gray;margin-bottom: 0">10 Sep 2017 10:55AM</p>
+                                             </div>
+                                             <!-- end:Description -->
+                                          </div>
+                                          <!-- end:col -->
+                                          <div class="col-xs-12 col-sm-12 col-lg-4   item-cart-info text-center"> 
+                                             <a class="btn theme-btn-dash pull-right" href="profile.html">Track</a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                    <div class="food-item white loyaltypoint-Item">
+                                       <div class="row">
+                                          <div class="col-xs-12 col-sm-12 col-lg-8">
+                                             <!-- end:Logo -->
+                                             <div class="rest-descr">
+                                                <h5>HM7088546 <span class="earned-yellow"  >Processing</span></h5>
+                                                <p style=" margin-bottom: 0"> <img width="20px;" src="images/vagitable.png"> Burgers, American, Sandwiches, Fast Food, BBQ</p>
+                                                <p style="color: gray;margin-bottom: 0">10 Sep 2017 10:55AM</p>
+                                             </div>
+                                             <!-- end:Description -->
+                                          </div>
+                                          <!-- end:col -->
+                                          <div class="col-xs-12 col-sm-12 col-lg-4   item-cart-info text-center"> 
+                                             <a class="btn theme-btn-dash pull-right" href="profile.html">Track</a>
+                                          </div>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div class="tab-pane" id="orderPast" role="tabpanel">
+                                    <div class="food-item loyaltypoint-Item">
+                                       <div class="row">
+                                          <div class="col-xs-12 col-sm-12 col-lg-8">
+                                             <!-- end:Logo -->
+                                             <div class="rest-descr">
+                                                <h5>HM7088546 <span class="earned-red"  >Failed</span></h5>
+                                                <p style=" margin-bottom: 0"> <img width="20px;" src="images/vagitable.png"> Burgers, American, Sandwiches, Fast Food, BBQ</p>
+                                                <p style="color: gray;margin-bottom: 0">10 Sep 2017 10:55AM</p>
+                                             </div>
+                                             <!-- end:Description -->
+                                          </div>
+                                          <!-- end:col -->
+                                       </div>
+                                    </div>
+                                    <div class="food-item white loyaltypoint-Item">
+                                       <div class="row">
+                                          <div class="col-xs-12 col-sm-12 col-lg-8">
+                                             <!-- end:Logo -->
+                                             <div class="rest-descr">
+                                                <h5>HM7088546 <span class="earned-green"  >Success</span></h5>
+                                                <p style=" margin-bottom: 0"> <img width="20px;" src="images/vagitable.png"> Burgers, American, Sandwiches, Fast Food, BBQ</p>
+                                                <p style="color: gray;margin-bottom: 0">10 Sep 2017 10:55AM</p>
+                                             </div>
+                                             <!-- end:Description -->
+                                          </div>
+                                          <!-- end:col -->
+                                       </div>
+                                    </div>
+                                    <div class="food-item loyaltypoint-Item">
+                                       <div class="row">
+                                          <div class="col-xs-12 col-sm-12 col-lg-8">
+                                             <!-- end:Logo -->
+                                             <div class="rest-descr">
+                                                <h5>HM7088546 <span class="earned-green"  >Success</span></h5>
+                                                <p style=" margin-bottom: 0"> <img width="20px;" src="images/vagitable.png"> Burgers, American, Sandwiches, Fast Food, BBQ</p>
+                                                <p style="color: gray;margin-bottom: 0">10 Sep 2017 10:55AM</p>
+                                             </div>
+                                             <!-- end:Description -->
+                                          </div>
+                                          <!-- end:col -->
+                                       </div>
+                                    </div>
+                                    <div class="food-item white loyaltypoint-Item">
+                                       <div class="row">
+                                          <div class="col-xs-12 col-sm-12 col-lg-8">
+                                             <!-- end:Logo -->
+                                             <div class="rest-descr">
+                                                <h5>HM7088546 <span class="earned-green"  >Success</span></h5>
+                                                <p style=" margin-bottom: 0"> <img width="20px;" src="images/vagitable.png"> Burgers, American, Sandwiches, Fast Food, BBQ</p>
+                                                <p style="color: gray;margin-bottom: 0">10 Sep 2017 10:55AM</p>
+                                             </div>
+                                             <!-- end:Description -->
+                                          </div>
+                                          <!-- end:col -->
+                                       </div>
+                                    </div>
+                                    <div class="food-item loyaltypoint-Item">
+                                       <div class="row">
+                                          <div class="col-xs-12 col-sm-12 col-lg-8">
+                                             <!-- end:Logo -->
+                                             <div class="rest-descr">
+                                                <h5>HM7088546 <span class="earned-red"  >Failed</span></h5>
+                                                <p style=" margin-bottom: 0"> <img width="20px;" src="images/vagitable.png"> Burgers, American, Sandwiches, Fast Food, BBQ</p>
+                                                <p style="color: gray;margin-bottom: 0">10 Sep 2017 10:55AM</p>
+                                             </div>
+                                             <!-- end:Description -->
+                                          </div>
+                                          <!-- end:col -->
+                                       </div>
+                                    </div>
+                                    <div class="food-item white loyaltypoint-Item">
+                                       <div class="row">
+                                          <div class="col-xs-12 col-sm-12 col-lg-8">
+                                             <!-- end:Logo -->
+                                             <div class="rest-descr">
+                                                <h5>HM7088546 <span class="earned-red"  >Failed</span></h5>
+                                                <p style=" margin-bottom: 0"> <img width="20px;" src="images/vagitable.png"> Burgers, American, Sandwiches, Fast Food, BBQ</p>
+                                                <p style="color: gray;margin-bottom: 0">10 Sep 2017 10:55AM</p>
+                                             </div>
+                                             <!-- end:Description -->
+                                          </div>
+                                          <!-- end:col -->
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+
+
+                  </div>
+               </div>
+            </div>
+            <!-- end:Container -->
+            <section class="app-section">
+               <div class="app-wrap">
+                  <div class="container">
+                     <div class="row text-img-block text-xs-left">
+                        <div class="container">
+                           <div class="col-xs-12 col-sm-6 hidden-xs-down right-image text-center">
+                              <figure> <img src="images/app.png" alt="Right Image"> </figure>
+                           </div>
+                           <div class="col-xs-12 col-sm-6 left-text">
+                              <h3>The Best Food Delivery App</h3>
+                              <p>Now you can make food happen pretty much wherever you are thanks to the free easy-to-use Food Delivery &amp; Takeout App.</p>
+                              <div class="social-btns">
+                                 <a href="#" class="app-btn apple-button clearfix">
+                                    <div class="pull-left"><i class="fa fa-apple"></i> </div>
+                                    <div class="pull-right"> <span class="text">Available on the</span> <span class="text-2">App Store</span> </div>
+                                 </a>
+                                 <a href="#" class="app-btn android-button clearfix">
+                                    <div class="pull-left"><i class="fa fa-android"></i> </div>
+                                    <div class="pull-right"> <span class="text">Available on the</span> <span class="text-2">Play store</span> </div>
+                                 </a>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </section>
+            <!-- start: FOOTER -->
+            <footer class="footer">
+               <div class="container">
+                  <!-- top footer statrs -->
+                  <div class="row top-footer">
+                     <div class="col-xs-12 col-sm-3 footer-logo-block color-gray">
+                        <a href="#"> <img src="images/food-picky-logo.png" alt="Footer logo"> </a> <span>Order Delivery &amp; Take-Out </span> 
+                     </div>
+                     <div class="col-xs-12 col-sm-2 about color-gray">
+                        <h5>About Us</h5>
+                        <ul>
+                           <li><a href="#">About us</a> </li>
+                           <li><a href="#">History</a> </li>
+                           <li><a href="#">Our Team</a> </li>
+                           <li><a href="#">We are hiring</a> </li>
+                        </ul>
+                     </div>
+                     <div class="col-xs-12 col-sm-2 how-it-works-links color-gray">
+                        <h5>How it Works</h5>
+                        <ul>
+                           <li><a href="#">Enter your location</a> </li>
+                           <li><a href="#">Choose restaurant</a> </li>
+                           <li><a href="#">Choose meal</a> </li>
+                           <li><a href="#">Pay via credit card</a> </li>
+                           <li><a href="#">Wait for delivery</a> </li>
+                        </ul>
+                     </div>
+                     <div class="col-xs-12 col-sm-2 pages color-gray">
+                        <h5>Pages</h5>
+                        <ul>
+                           <li><a href="#">Search results page</a> </li>
+                           <li><a href="#">User Sing Up Page</a> </li>
+                           <li><a href="#">Pricing page</a> </li>
+                           <li><a href="#">Make order</a> </li>
+                           <li><a href="#">Add to cart</a> </li>
+                        </ul>
+                     </div>
+                     <div class="col-xs-12 col-sm-3 popular-locations color-gray">
+                        <h5>Popular locations</h5>
+                        <ul>
+                           <li><a href="#">Sarajevo</a> </li>
+                           <li><a href="#">Split</a> </li>
+                           <li><a href="#">Tuzla</a> </li>
+                           <li><a href="#">Sibenik</a> </li>
+                           <li><a href="#">Zagreb</a> </li>
+                           <li><a href="#">Brcko</a> </li>
+                           <li><a href="#">Beograd</a> </li>
+                           <li><a href="#">New York</a> </li>
+                           <li><a href="#">Gradacac</a> </li>
+                           <li><a href="#">Los Angeles</a> </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <!-- top footer ends -->
+                  <!-- bottom footer statrs -->
+                  <div class="row bottom-footer">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-xs-12 col-sm-3 payment-options color-gray">
+                              <h5>Payment Options</h5>
+                              <ul>
+                                 <li>
+                                    <a href="#"> <img src="images/paypal.png" alt="Paypal"> </a>
+                                 </li>
+                                 <li>
+                                    <a href="#"> <img src="images/mastercard.png" alt="Mastercard"> </a>
+                                 </li>
+                                 <li>
+                                    <a href="#"> <img src="images/maestro.png" alt="Maestro"> </a>
+                                 </li>
+                                 <li>
+                                    <a href="#"> <img src="images/stripe.png" alt="Stripe"> </a>
+                                 </li>
+                                 <li>
+                                    <a href="#"> <img src="images/bitcoin.png" alt="Bitcoin"> </a>
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="col-xs-12 col-sm-4 address color-gray">
+                              <h5>Address</h5>
+                              <p>Concept design of oline food order and deliveye,planned as restaurant directory</p>
+                              <h5>Phone: <a href="tel:+080000012222">080 000012 222</a></h5>
+                           </div>
+                           <div class="col-xs-12 col-sm-5 additional-info color-gray">
+                              <h5>Addition informations</h5>
+                              <p>Join the thousands of other restaurants who benefit from having their menus on TakeOff</p>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <!-- bottom footer ends -->
+               </div>
+            </footer>
+            <!-- end:Footer -->
+         </div>
+         <!-- end:page wrapper -->
+      </div>
+      <!--/end:Site wrapper -->
+      <!-- Modal -->
+      <div class="modal fade resrvationModal" id="resrvationModal" tabindex="-1" role="dialog" aria-hidden="true">
+         <div class="modal-dialog" role="document">
+            <div class="modal-content">
+               <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+               <div class="modal-body reservation-popup-con">
+                  <form>
+                     <div class="form-group">
+                        <label for="exampleInputEmail1">What day?</label>
+                        <input type="date" id="example-text-input" value="" class="form-control">  
+                     </div>
+
+                     <div class="form-group">
+                        <label for="exampleInputEmail1">What time?</label>
+                        <input type="time" id="example-text-input" value="" class="form-control">  
+                     </div>
+
+                     <div class="form-group">
+                        <label for="exampleInputEmail1">How many people?</label>
+                        <select id="exampleSelect1" class="form-control">
+                                       <option>1</option>
+                                       <option>2</option>
+                                       <option>3</option>
+                                       <option>4</option>
+                                       <option>5</option>
+                                    </select> 
+                     </div>
+                  </form>
+               </div>
+               <div class="modal-footer " style=" text-align: center!important;">
+                  <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button> -->
+                  <button type="button" class="btn theme-btn">Reserve</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- Bootstrap core JavaScript
+         ================================================== -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/tether.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/animsition.min.js"></script>
+      <script src="js/bootstrap-slider.min.js"></script>
+      <script src="js/jquery.isotope.min.js"></script>
+      <script src="js/headroom.js"></script>
+      <script src="js/foodpicky.min.js"></script>
+   </body>
+</html>
+
